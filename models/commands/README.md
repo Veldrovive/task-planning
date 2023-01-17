@@ -1,0 +1,2 @@
+Commands tell the agent to take some action or return some information.
+Each command should have a separate file in this folder that contains at least the [COMMAND_NAME]ReqData and [COMMAND_NAME]ResData pydantic models. The [COMMAND_NAME]ReqData model should contain all the data needed to run the command. The [COMMAND_NAME]ResData model should contain all the data returned by the command.
